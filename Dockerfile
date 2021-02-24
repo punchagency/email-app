@@ -9,7 +9,7 @@ COPY . .
 RUN npm cache clean --force
 RUN npm install 
 
-# RUN npm run build
-
-CMD ["npm","run","start"]
+RUN npm run build
+RUN npm rebuild node-sass
+CMD ["npm","run","dev"]
 EXPOSE 8080

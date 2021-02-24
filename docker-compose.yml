@@ -1,5 +1,7 @@
 postgres:
   image: postgres:9.6.3
+  ports:
+    - "5432:5432"
 redis:
   image: redis:4.0
 app:
