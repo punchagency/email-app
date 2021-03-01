@@ -118,7 +118,7 @@ export class SettingsComponent extends Component {
     return (
       <div>
         <section className="content-header">
-          <h1>Settings <small>Settings page</small></h1>
+          <h1>Settings <small>Ahmad this is your Settings page</small></h1>
         </section>
 
         <section className="content">

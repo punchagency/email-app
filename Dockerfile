@@ -6,10 +6,10 @@ WORKDIR /usr/src/app/
 COPY . .
 
 # And then compile the frontend
+COPY package*.json ./
 RUN npm cache clean --force
 RUN npm install 
 
 RUN npm run build
-RUN npm rebuild node-sass
-CMD ["npm","run","dev"]
+CMD ["npm","run","start"]
 EXPOSE 8080

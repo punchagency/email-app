@@ -10,7 +10,7 @@ const server = configureServer();
 const PORT = process.env.PORT || 8080;
 server.listen(PORT, function() {
   const displayMessage = `
-  Congratulations Ahmad Salman
+  Congratulations Ahmad Salman Khan
   ############################
   #   Mail 4 Good started    #
   ############################
